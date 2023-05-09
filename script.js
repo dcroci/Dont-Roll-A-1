@@ -21,7 +21,7 @@ rollBtn.addEventListener('click', () => {
         currentScore[i].textContent =
           Number(currentScore[i].textContent) + userNum;
       }
-      if (currentScore[i].textContent >= 100) {
+      if (currentScore[i].textContent >= 50) {
         section[i].classList.add('player--winner');
       }
       if (section[i].classList.contains('player--winner')) {
