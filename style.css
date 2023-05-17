@@ -165,3 +165,52 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+@media (max-width: 1000px) {
+  main {
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 0;
+    width: 100%;
+  }
+  .player {
+    padding: 5rem;
+  }
+  .btn--new {
+    font-size: 1.5rem;
+    top: 0rem;
+    left: 4rem;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .btn--roll {
+    font-size: 1.5rem;
+    top: 38.2rem;
+    left: 5rem;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .btn--hold {
+    font-size: 1.5rem;
+    top: 38.2rem;
+    left: 31rem;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .dice {
+    top: 38.2rem;
+    left: 50%;
+    height: 7rem;
+  }
+}
